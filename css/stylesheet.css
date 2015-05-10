@@ -1,16 +1,16 @@
 @import url (font-face.css);
 body { 
 	background-color: #fff;
-	display: inline-flex, inline-block;
+	display: inline-block;
 	text-align: center;
-	font-family:'lato-black';
-  	src: url('../fonts/lato-black/Lato-Bla-webfont.ttf')  format('truetype'),
+	font-family:'lato-regular';
+  	src: url('../fonts/lato-regular/Lato-Reg-webfont.ttf')  format('truetype'),
 	font-size: 90%;
 	margin: 0px;
 	padding: auto;}
+
 .container {
-	width: 800px;
-	border: .5px red;
+	width: 1110px;
 	margin: 0px auto;
 }
 
@@ -19,41 +19,43 @@ header {
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	color: #fff;
-	display: fixed;}
+	width:100%;}
 
 #logo img {
 	background-color: #262626;
 	float: left;
-	width: 10%;
-	margin-left: 40px;
-	margin-bottom: 0px;
+	width: 15%;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding-top: 15px
 }
-.nav {
-	display: inline-block;
-	padding: 10px 50px 50px 10px;
-	background-color: black;
-	margin-top: 100px;}
 ul {
+	display: inline-block;
 	list-style-type: none;
-	display: inline;
 }
 li {
 	list-style-type: none;
-	display: inline;
-	list-style-image: inline;
-	text-transform: uppercase;
+	display: inline-block; 
+	word-spacing: 5px;
 	text-decoration: none;
+	font-family: 'lato-regular;' url(css/font-face.css);
 }
-
 .webpaint {
+	display: inline-block;
 	float: right;
-	word-spacing: 10px;
-	text-align: left;
-	padding: 20px 0px 0px 0px;
-	margin-right: 40px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-.webpaint li, a:link {
-	font-family: sans-serif;
+.webpaint ul {
+	display: inline-block;
+	text-transform: uppercase;
+	list-style-type: none;
+	text-align: right;
+}
+.webpaint li, a {
+	padding: 10px 10px 10px 10px;
 	color: #fff;
 	text-decoration: none;}
 .webpaint a:visited {
@@ -66,7 +68,7 @@ li {
 	text-decoration: none;}
 
 .heading {
-	display: inline-block;
+	display: inline;
 	background-color: #262626;
 	color: white;
 	text-align: center;}
@@ -74,26 +76,31 @@ li {
 h1 {
 	display: inline-block;
 	text-align: center;
-	font-family: 'lato;' url (css/font-face.css);
+	font-family: 'lato-light;' url(css/font-face.css);
 	width: 100%;
 	top-margin: 50px;
-	padding: auto;
+	padding: 10px 10px 10px 10px;
 	justify-content: center;
 	align-item: center;
 }
-h2 {
+h2, h3{
 	display: inline-block;
 	text-align: center;
-	font-family: sans-serif;
-	top-margin: 10px;
+	font-family: 'lato-regular';
+	font-size: 26px;
+	margin: 0 auto;
 	padding: 20px 20px 20px 20px;
 	justify-content: center;
 	align-item: center;
 }
 button {
-	width: 100px;
+	display: inline-block;
+	width: 120px;
 	padding: 10px;
-	font-size: 85%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-size: 80%;
 	background: #ff6760;
 	color: #fff;
 	cursor: pointer;
@@ -103,30 +110,85 @@ button {
 button:hover {
 	background: #595959;}
 
-.services {
-	width: 75%;
-	display: center;
-	margin: 20px auto 20px auto;
-	padding: 10px 10px 10px 10px;}
+.containertwo, .containerthree, .containerfour, .containerfive {
+	width: 220px;
+	text-align: center;
+	}
+.containertwo {
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+ }
+.containerthree {
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+}
+.containerfour {
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+
+}
+.containerfive {
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+}
+.work {
+	position: relative;
+	display: inline-block;
+	float: center;
+	margin-top: 20px;
+	padding: auto;
+}
 
 footer {
-	display: inline-flex;
 	background-color: #262626;
 	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
+	margin: 0 auto;
 	color: #fff;}
+
+p {
+	font-size: 16px;
+	font-family: 'lato-light';
+}
+.touch {
+	font-size: 18px;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
 
 .contact {
 	padding: 50px 10px 10px 10px;
 	margin-top: 50px;}
+address {
+	display: inline-block;
+	position: relative;
+	font-style: normal;
+}
+.containersix {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 auto;
+}
+.containersix img {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 auto;
+}
 
 .copy {
-	display: inline-flex, inline-block;
+	display: inline-block, inline-flex;
 	padding: 10px 10px 10px 10px;
 	background-color: black;
 	text-align: center;
-	margin-top: 100px;}
-
+	word-spacing: 2px;
+	margin-top: 40px;}
 
 
 
